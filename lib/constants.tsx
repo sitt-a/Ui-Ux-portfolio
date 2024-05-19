@@ -46,7 +46,7 @@ export const projectsData = [
         description:
             "This was school project. it is made for tourists where they can find place to visit",
         tags: ["React", "Express.js", "MongoDB", "Bootstarp",],
-        imageUrl: '/images/t8.png',
+        imageUrl: '/images/t12.png',
         href: '/temar-lije'
     },
     {
