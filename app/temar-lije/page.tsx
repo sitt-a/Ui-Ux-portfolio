@@ -91,7 +91,7 @@ const Sink = () => {
             </div>
             <div className="flex-1 flex flex-col items-center md:justify-center md:items-start">
               <p className="my-10">
-               This page is where userd are redirected after signing up using tone of the options available.
+               This page is where users are redirected after signing up using tone of the options available.
                On this page,they can see the refeatures courses ,their profile,favourite courses and all courses avilable.
               </p>
               {homePage?.map((p) => {

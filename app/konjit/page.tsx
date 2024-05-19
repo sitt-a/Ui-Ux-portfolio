@@ -4,7 +4,7 @@ import React from "react";
 
 const Sink = () => {
   const features = [
-    "category Listings",
+    "Category Listings",
     "Search Functionality",
     "Filtering and Sorting",
     "Product Details",
@@ -35,7 +35,7 @@ const Sink = () => {
         <h3 className="t text-2xl font-extrabold my-5">Overview</h3>
 
         <p className="mb-10">
-         The figma design for <b>Konjit</b>e-commerce website has user friendly design with easy navigation
+         The figma design for <b>Konjit</b> e-commerce website has user friendly design with easy navigation
          ,a quick search bar and a clear text that gives information about the website.
         </p>
         <h3 className="t text-2xl font-extrabold">Feature Highlights</h3>
@@ -59,7 +59,7 @@ const Sink = () => {
             </div>
             <div className="flex-1 flex flex-col items-center md:justify-center md:items-start">
               <p className="my-10">
-                Users can discover a wide range of dishes from various cuisines
+                Users can discover a wide range of dishes from various menus
                 and categories
               </p>
               {homePage?.map((p) => {
@@ -86,10 +86,8 @@ const Sink = () => {
             </div>
             <div className="flex-1 flex flex-col items-center md:justify-center md:items-start">
               <p className="my-10">
-                On the contact page, users have the opportunity to send their
-                reviews or testimonials. This feature allows users to share
-                their feedback, experiences, and thoughts about the website,
-                recipes, or any other relevant aspect.
+                The users can view and choose from the categories on the siedbar.
+                It also has a Trensing items section and New items section.
               </p>
               {homePage?.map((p) => {
                 return (
@@ -115,10 +113,7 @@ const Sink = () => {
             </div>
             <div className="flex-1 flex flex-col items-center md:justify-center md:items-start">
               <p className="my-10">
-                On the recipe's detail page, users can access the detailed
-                step-by-step instructions for preparing the food. Additionally,
-                they have the option to watch a video that demonstrates the
-                cooking process.
+                This page shows for changes the content shon in the right side Product category chosen from the sidebar on the left side.
               </p>
               {homePage?.map((p) => {
                 return (

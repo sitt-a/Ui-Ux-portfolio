@@ -79,14 +79,7 @@ const Sink = () => {
                 encourage users to further explore the available food 
                 category.
               </p>
-              {homePage?.map((p) => {
-                return (
-                  <h4 key={p} className="text-sm text-gray-700 pl-3 py-1">
-                    {" "}
-                    <span>-</span> {p}
-                  </h4>
-                );
-              })}
+            
             </div>
           </div>
          
