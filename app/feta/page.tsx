@@ -51,7 +51,7 @@ const Kebena = () => {
                             src={'/images/m3.png'} />
                         <div className='flex-1 flex flex-col items-center md:justify-center md:items-start mt-12'>
                             <h3 className='text-2xl font-bold mb-4'>Movie detail</h3>
-                            <p>It containts the detailed description of the movie like thename of the movie,the  genera ,the name of actors ,it's length and the time movie release</p>
+                            <p>It containts the detailed description of the movie like thename of the movie,the  geners ,the name of actors ,it's length and the date of movei release.</p>
 
                         </div>
                     </div>
