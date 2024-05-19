@@ -154,13 +154,7 @@ const Sink = () => {
                 src={"/images/e4.png"}
               />
             </div>
-           { <p className="my-10">
-              Users can conveniently view their favorite books, track their
-              reading progress, and contribute to the club. This page serves as
-              a personalized hub where users can manage their book preferences,
-              monitor their reading achievements, and actively participate in
-              the club's activities.
-            </p>}
+          
            {/*  <div className="flex-1 flex flex-col items-center md:justify-center md:items-start">
               {profile?.map((p) => {
                 return (

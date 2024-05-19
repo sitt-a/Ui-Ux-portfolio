@@ -91,7 +91,7 @@ const Teraki = () => {
                             className='o object-contain aspect-[3/2] flex-1 mt-2 w-full '
                             src={'/images/f5.png'} />
                         <div className='flex-1 flex flex-col items-center md:justify-center md:items-start'>
-                            <h3 className='text-2xl font-bold'>Ckeck out page</h3>
+                            <h3 className='text-2xl font-bold'>Check out page</h3>
                             <h4 className='text-sm text-gray-700 pl-3 py-1'> <span>-</span>Location</h4>
                             <h4 className='text-sm text-gray-700 pl-3 py-1'> <span>-</span>Total items</h4>
                             <h4 className='text-sm text-gray-700 pl-3 py-1'> <span>-</span>Place order</h4>
