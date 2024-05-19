@@ -16,15 +16,16 @@ const Kebena = () => {
                
                />
                      <h3 className='t text-2xl font-extrabold my-5'>Overview</h3>
-                <p className='mb-20'>This platform is designed to simplify event discovery and booking within the Kebele community, offering users the ability to easily find and reserve available events. Users can browse through a variety of events, check their availability, and book ventures in Kebele with convenience. Administrators have comprehensive control over the platform, with capabilities to manage users, create and modify events, and customize the home page layout. These features are meticulously designed to enhance the event booking experience for users while providing administrators with the tools they need to efficiently manage the platform.</p>
+                <p className='mb-20'>This platform is designed to simplify movies streaming service in Ethiopia.
+                It has a user freindly design that enables users to seach and find movies also providing 
+                customized movie recommendation.</p>
                 <h3 className='t text-2xl font-extrabold'>Feature Highlights</h3>
                 <div className='mt-4'>
-                    <li>Event Discovery</li>
-                    <li> Availability Checking</li>
-                    <li>Venture Booking</li>
-                    <li>Administrative Control</li>
-                    <li>Event Creation</li>
-                    <li>Layout Customization</li>
+                    <li>Searching functionality</li>
+                    <li>Tranding movies</li>
+                    <li>supports mutiple devices</li>
+                    <li>customized recommendation</li>
+                    <li>free and paid services</li>
                 </div>
                
                 <div className='my-10 '>
@@ -35,9 +36,9 @@ const Kebena = () => {
                             height={400}
                             className='o object-contain aspect-[3/2] flex-1 mt-2 w-full '
                             src={'/images/m2.png'} />
-                        <div className='flex-1 flex flex-col items-center bg-red md:justify-center md:items-start'>
-                            <h3 className='text-2xl font-bold'>Home</h3>
-                            <p>Explore a diverse range of events, check availability, and easily reserve your spots for exciting ventures in Kebele. Whether you're seeking cultural experiences, workshops, or community gatherings, our platform provides a hassle-free way to find and attend events that interest you. </p>
+                        <div className='flex-1 flex flex-col items-center bg-red md:justify-center md:items-start mt-12'>
+                            <h3 className='text-2xl font-bold mb-4'>Movies page</h3>
+                            <p>It has movies with different geners that that user can search and filter from based on their preference.</p>
                         </div>
                     </div>
                     
@@ -48,9 +49,9 @@ const Kebena = () => {
                             height={400}
                             className='o object-contain aspect-[3/2] flex-1 mt-2 w-full '
                             src={'/images/m3.png'} />
-                        <div className='flex-1 flex flex-col items-center md:justify-center md:items-start'>
-                            <h3 className='text-2xl font-bold'>Admin Dashboard</h3>
-                            <p>Here, admins have full control. Add new admins, create events, and customize the layout of the home page effortlessly. Stay tuned for more features coming soon, empowering you to tailor the platform to the community's needs with ease.</p>
+                        <div className='flex-1 flex flex-col items-center md:justify-center md:items-start mt-12'>
+                            <h3 className='text-2xl font-bold mb-4'>Movie detail</h3>
+                            <p>It containts the detailed description of the movie like thename of the movie,the  genera ,the name of actors ,it's length and the time movie release</p>
 
                         </div>
                     </div>

@@ -5,17 +5,17 @@ import React from "react";
 
 const Sink = () => {
   const features = [
-    "Featured Destinations",
-    "Travel Deals or Packages",
-    " Destination Guides",
-    "Travel Tips and Advice",
+    "A welcome page",
+    "signin and signup page",
+    " Free and paid courses",
+    "Shows course progress",
   ];
-  const homePage = ["trip Recommendations", "Top trips", "Filter by price"];
+  const homePage = [" Social Media Sign-In", "Log in option", "sign up information"];
   const listing = [
-    "Latest TRips ",
-    "Trip Categories",
-    "Filter by price",
-    "See trip status",
+    "The number of hours  ",
+    "The number of courses",
+    "The course content for each chapter",
+    
   ];
   const profile = [
     "Update profile information",
@@ -39,10 +39,9 @@ const Sink = () => {
         <h3 className="t text-2xl font-extrabold my-5">Overview</h3>
 
         <p className="mb-10">
-          This ongoing design is focused on creating a comprehensive tour
-          package booking platform for exploring Ethiopia. The primary feature
-          of this design is to enable users to easily book their desired tour
-          packages within Ethiopia.
+          This ongoing design is an E-learning mobile app designed for Ethiopian students and named after a famous song about education.
+           The primary feature is to provide user freindly mobile app E-learning app for Ethiopian students.
+         
         </p>
         <h3 className="t text-2xl font-extrabold">Feature Highlights</h3>
         <div className="mt-4">
@@ -52,36 +51,7 @@ const Sink = () => {
         </div>
 
         <div className="my-10">
-          <h3 className="t text-2xl font-extrabold my-5 mx-auto">Home</h3>
-          <div className="flex flex-col">
-            <div className="flex-1">
-              <Image
-                alt=""
-                width={230}
-                height={230}
-                className="object-cover justify-center  my-10 mx-auto "
-                src={"/images/t2.png"}
-              />
-            </div>
-            <div className="flex-1 flex flex-col items-center md:justify-center md:items-start">
-              <p className="my-10">
-                On the home page, users can access a comprehensive overview of
-                the entire website. This page serves as the main landing point
-                where users can find essential information and navigate to
-                various sections of the website.
-              </p>
-              {homePage?.map((p) => {
-                return (
-                  <h4 key={p} className="text-sm text-gray-700 pl-3 py-1">
-                    {" "}
-                    <span>-</span> {p}
-                  </h4>
-                );
-              })}
-            </div>
-          </div>
-
-          <h3 className="t text-2xl font-extrabold my-5 mx-auto">Package</h3>
+          <h3 className="t text-2xl font-extrabold my-5 mx-auto">Sign up page</h3>
           <div className="flex flex-col">
             <div className="flex-1">
               <Image
@@ -94,10 +64,8 @@ const Sink = () => {
             </div>
             <div className="flex-1 flex flex-col items-center md:justify-center md:items-start">
               <p className="my-10">
-                On the package page, users can discover a diverse range of
-                available tour packages. This page presents users with a
-                comprehensive list of various packages that they can explore and
-                choose from for their travel needs.
+                On the sign up page, users can sign up using their email and user name or through
+                 their google,apple or facebook account.
               </p>
               {homePage?.map((p) => {
                 return (
@@ -110,7 +78,34 @@ const Sink = () => {
             </div>
           </div>
 
-          <h3 className="t text-2xl font-extrabold my-5 mx-auto">Package</h3>
+          <h3 className="t text-2xl font-extrabold my-5 mx-auto">Home page</h3>
+          <div className="flex flex-col">
+            <div className="flex-1">
+              <Image
+                alt=""
+                width={230}
+                height={230}
+                className="object-cover justify-center  my-10 mx-auto "
+                src={"/images/t2.png"}
+              />
+            </div>
+            <div className="flex-1 flex flex-col items-center md:justify-center md:items-start">
+              <p className="my-10">
+               This page is where userd are redirected after signing up using tone of the options available.
+               On this page,they can see the refeatures courses ,their profile,favourite courses and all courses avilable.
+              </p>
+              {homePage?.map((p) => {
+                return (
+                  <h4 key={p} className="text-sm text-gray-700 pl-3 py-1">
+                    {" "}
+                    <span>-</span> {p}
+                  </h4>
+                );
+              })}
+            </div>
+          </div>
+
+          <h3 className="t text-2xl font-extrabold my-5 mx-auto">Course detail</h3>
           <div className="flex flex-col">
             <div className="flex-1">
               <Image
@@ -122,13 +117,8 @@ const Sink = () => {
               />
             </div>
             <div className="flex-1 flex flex-col items-center md:justify-center md:items-start">
-              <p className="my-10">
-                On the package page, users can discover a diverse range of
-                available tour packages. This page presents users with a
-                comprehensive list of various packages that they can explore and
-                choose from for their travel needs.
-              </p>
-              {homePage?.map((p) => {
+            
+              {listing?.map((p) => {
                 return (
                   <h4 key={p} className="text-sm text-gray-700 pl-3 py-1">
                     {" "}

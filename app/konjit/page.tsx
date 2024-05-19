@@ -4,20 +4,20 @@ import React from "react";
 
 const Sink = () => {
   const features = [
-    "Recipe Listings",
+    "category Listings",
     "Search Functionality",
     "Filtering and Sorting",
-    "Recipe Details",
-    "Recipe Collections",
-    "Nutritional Information",
-    "Video Tutorials",
-    "Ingredient Substitution Suggestions",
+    "Product Details",
+   
+    "Profile Information",
+    "Personilized notification",
     "Adaptive Recommendations",
   ];
   const homePage = [
     "Search and Filter Options",
-    "Recipe Categories",
-    "Video Recipes",
+    "Product Categories",
+    "Trending Products",
+    "New Products",
   ];
   const listing = ["latest recipes ", "Recipe Categories", "Tradishinal foods"];
   return (
@@ -35,8 +35,8 @@ const Sink = () => {
         <h3 className="t text-2xl font-extrabold my-5">Overview</h3>
 
         <p className="mb-10">
-          Users can browse through a collection of recipes, view detailed
-          instructions, and even watch videos demonstrating the cooking process.
+         The figma design for <b>Konjit</b>e-commerce website has user friendly design with easy navigation
+         ,a quick search bar and a clear text that gives information about the website.
         </p>
         <h3 className="t text-2xl font-extrabold">Feature Highlights</h3>
         <div className="mt-4">
@@ -46,7 +46,7 @@ const Sink = () => {
         </div>
 
         <div className="my-10">
-          <h3 className="t text-2xl font-extrabold my-5 mx-auto">Recipe</h3>
+          <h3 className="t text-2xl font-extrabold my-5 mx-auto">Landing page</h3>
           <div className="flex flex-col">
             <div className="flex-1">
               <Image
@@ -73,7 +73,7 @@ const Sink = () => {
             </div>
           </div>
          
-          <h3 className="t text-2xl font-extrabold my-5 mx-auto">Contact</h3>
+          <h3 className="t text-2xl font-extrabold my-5 mx-auto">Home page</h3>
           <div className="flex flex-col">
             <div className="flex-1">
               <Image
@@ -102,7 +102,7 @@ const Sink = () => {
             </div>
           </div>
 
-          <h3 className="t text-2xl font-extrabold my-5 mx-auto">Detail</h3>
+          <h3 className="t text-2xl font-extrabold my-5 mx-auto">Products</h3>
           <div className="flex flex-col">
             <div className="flex-1">
               <Image

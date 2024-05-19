@@ -6,7 +6,7 @@ const Resume = () => {
   return (
     <div className="">
       <Header />
-      <iframe className="w-[100%] h-[975px] mx-auto" src="EdenGelanCV.pdf" ></iframe>
+      <iframe className="w-[100%] h-[975px] mx-auto" src="SitraMohammedCV.pdf" ></iframe>
     </div>
   );
 };

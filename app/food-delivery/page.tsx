@@ -4,13 +4,12 @@ import React from "react";
 
 const Sink = () => {
   const features = [
-    "Book Borrowing System",
-    "Borrowing History",
-    "Due Dates and Reminders",
-    "Member Ratings for Borrowed Books",
-    "Admin Controls for Book Management",
-    "User Profile Bookshelf",
-    "Book Reservation",
+    "Services section",
+    "Food recommendations",
+    "Restaurant recommendations",
+    "Customer reviews",
+    "A call to action Button ",
+
   ];
   const homePage = [
     "Book Recommendations",
@@ -48,14 +47,8 @@ const Sink = () => {
         <h3 className="t text-2xl font-extrabold my-5">Overview</h3>
 
         <p className="mb-10">
-          This design is specifically created for the 5 Killo Fellowship Book
-          Club website. The website includes a feature that allows users to view
-          the availability of books and submit requests to borrow them. These
-          requests will then be reviewed and accepted by the administrator.
-          Additionally, users have the option to contribute their own books to
-          the book club. It is important to note that this design has been
-          carefully planned to ensure a seamless user experience and efficient
-          book management within the club.
+        This Figma design for a food delivery app prioritizes user ease. The home page features a hero section with eye-catching visuals, followed by clear sections for services, restaurant recommendations, and customer reviews.  Transitioning to the food category page,
+         users can delve into detailed information about each dish and seamlessly place their orders. 
         </p>
 
         <h3 className="t text-2xl font-extrabold">Feature Highlights</h3>
@@ -82,9 +75,9 @@ const Sink = () => {
                 To make the home page more engaging,incorporating a visually
                 appealing book carousel or featured book section on the home
                 page can catch the user's attention and highlight popular or
-                trending books. This can create a sense of intrigue and
-                encourage users to further explore the available book
-                collection.
+                recommended foods. This can create a sense of intrigue and
+                encourage users to further explore the available food 
+                category.
               </p>
               {homePage?.map((p) => {
                 return (
@@ -97,7 +90,7 @@ const Sink = () => {
             </div>
           </div>
          
-          <h3 className="text-2xl font-bold">Profile </h3>
+          <h3 className="text-2xl font-bold">Ordering page</h3>
           <div className="flex flex-col  px-4 py-2 mt-10 ">
             <div className="flex-1">
               <Image
@@ -109,13 +102,11 @@ const Sink = () => {
               />
             </div>
             <p className="my-10">
-              Users can conveniently view their favorite books, track their
-              reading progress, and contribute to the club. This page serves as
-              a personalized hub where users can manage their book preferences,
-              monitor their reading achievements, and actively participate in
-              the club's activities.
+              Users can conveniently view food category from the clear and concise menus
+               available and also allows users to find what they want using search and filter options.
+             
             </p>
-            <div className="flex-1 flex flex-col items-center md:justify-center md:items-start">
+          {/*   <div className="flex-1 flex flex-col items-center md:justify-center md:items-start">
               {profile?.map((p) => {
                 return (
                   <h4 key={p} className="text-sm text-gray-700 pl-3 py-1">
@@ -124,9 +115,9 @@ const Sink = () => {
                   </h4>
                 );
               })}
-            </div>
+            </div> */}
           </div>
-          <h3 className="text-2xl font-bold">Book Detail </h3>
+          <h3 className="text-2xl font-bold">Food Detail </h3>
           <div className="flex flex-col  px-4 py-2 mt-10 ">
             <div className="flex-1">
               <Image
@@ -138,13 +129,10 @@ const Sink = () => {
               />
             </div>
             <p className="my-10">
-              Users can conveniently view their favorite books, track their
-              reading progress, and contribute to the club. This page serves as
-              a personalized hub where users can manage their book preferences,
-              monitor their reading achievements, and actively participate in
-              the club's activities.
+              Users can conveniently view the food detail of their specific choice with detailed description.
+              In the description there are nutritional information,price,popularity indicator.
             </p>
-            <div className="flex-1 flex flex-col items-center md:justify-center md:items-start">
+          {/*   <div className="flex-1 flex flex-col items-center md:justify-center md:items-start">
               {profile?.map((p) => {
                 return (
                   <h4 key={p} className="text-sm text-gray-700 pl-3 py-1">
@@ -153,9 +141,9 @@ const Sink = () => {
                   </h4>
                 );
               })}
-            </div>
+            </div> */}
           </div>
-          <h3 className="text-2xl font-bold">Borrow request</h3>
+          <h3 className="text-2xl font-bold">Contact us</h3>
           <div className="flex flex-col  px-4 py-2 mt-10 ">
             <div className="flex-1">
               <Image
@@ -166,14 +154,14 @@ const Sink = () => {
                 src={"/images/e4.png"}
               />
             </div>
-            <p className="my-10">
+           { <p className="my-10">
               Users can conveniently view their favorite books, track their
               reading progress, and contribute to the club. This page serves as
               a personalized hub where users can manage their book preferences,
               monitor their reading achievements, and actively participate in
               the club's activities.
-            </p>
-            <div className="flex-1 flex flex-col items-center md:justify-center md:items-start">
+            </p>}
+           {/*  <div className="flex-1 flex flex-col items-center md:justify-center md:items-start">
               {profile?.map((p) => {
                 return (
                   <h4 key={p} className="text-sm text-gray-700 pl-3 py-1">
@@ -182,7 +170,7 @@ const Sink = () => {
                   </h4>
                 );
               })}
-            </div>
+            </div> */}
           </div>
         </div>
       </section>
